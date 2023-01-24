@@ -20,19 +20,28 @@
                                 <rect key="frame" x="94" y="181" width="200" height="100"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="france"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFG-mX-EmG"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-98-xjf">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-98-xjf">
                                 <rect key="frame" x="94" y="449" width="200" height="100"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="spain"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xjl-AT-4Vv"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcc-PZ-ids">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcc-PZ-ids">
                                 <rect key="frame" x="94" y="317" width="200" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="YNy-gk-C2f"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="uk"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hWY-4G-u8e"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,7 +53,6 @@
                             <constraint firstItem="X7D-AO-ljE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="GnP-93-Mac"/>
                             <constraint firstItem="X7D-AO-ljE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-32" id="L1D-Ab-1Nv"/>
                             <constraint firstItem="eWM-98-xjf" firstAttribute="leading" secondItem="Gcc-PZ-ids" secondAttribute="leading" id="Mjr-vt-hTb"/>
-                            <constraint firstItem="X7D-AO-ljE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="RCX-f3-7gb"/>
                             <constraint firstItem="Gcc-PZ-ids" firstAttribute="leading" secondItem="X7D-AO-ljE" secondAttribute="leading" id="UXI-TT-H8o"/>
                             <constraint firstItem="eWM-98-xjf" firstAttribute="trailing" secondItem="Gcc-PZ-ids" secondAttribute="trailing" id="cRN-LZ-PeB"/>
                             <constraint firstItem="eWM-98-xjf" firstAttribute="top" secondItem="Gcc-PZ-ids" secondAttribute="bottom" constant="32" id="dhS-bo-s8X"/>
