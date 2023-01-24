@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NKw-Dm-XC8">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="second_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7D-AO-ljE">
+                                <rect key="frame" x="94" y="181" width="200" height="100"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="france"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWM-98-xjf">
+                                <rect key="frame" x="94" y="449" width="200" height="100"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="spain"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcc-PZ-ids">
+                                <rect key="frame" x="94" y="317" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="YNy-gk-C2f"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="uk"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gcc-PZ-ids" firstAttribute="trailing" secondItem="X7D-AO-ljE" secondAttribute="trailing" id="1Fx-fH-9KV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X7D-AO-ljE" secondAttribute="trailing" constant="101" id="4yd-dz-s7g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X7D-AO-ljE" secondAttribute="bottom" constant="537" id="6ha-Vc-m42"/>
+                            <constraint firstItem="X7D-AO-ljE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="GnP-93-Mac"/>
+                            <constraint firstItem="X7D-AO-ljE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-32" id="L1D-Ab-1Nv"/>
+                            <constraint firstItem="eWM-98-xjf" firstAttribute="leading" secondItem="Gcc-PZ-ids" secondAttribute="leading" id="Mjr-vt-hTb"/>
+                            <constraint firstItem="X7D-AO-ljE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="RCX-f3-7gb"/>
+                            <constraint firstItem="Gcc-PZ-ids" firstAttribute="leading" secondItem="X7D-AO-ljE" secondAttribute="leading" id="UXI-TT-H8o"/>
+                            <constraint firstItem="eWM-98-xjf" firstAttribute="trailing" secondItem="Gcc-PZ-ids" secondAttribute="trailing" id="cRN-LZ-PeB"/>
+                            <constraint firstItem="eWM-98-xjf" firstAttribute="top" secondItem="Gcc-PZ-ids" secondAttribute="bottom" constant="32" id="dhS-bo-s8X"/>
+                            <constraint firstItem="Gcc-PZ-ids" firstAttribute="top" secondItem="X7D-AO-ljE" secondAttribute="bottom" constant="36" id="fbk-Sk-K2R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X7D-AO-ljE" secondAttribute="trailing" constant="99" id="jtH-OQ-Dig"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eWM-98-xjf" secondAttribute="bottom" constant="269" id="lvw-n9-5GV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="V48-6V-YGL"/>
+                    <connections>
+                        <outlet property="button1" destination="X7D-AO-ljE" id="phc-Pf-faH"/>
+                        <outlet property="button2" destination="Gcc-PZ-ids" id="afj-5S-rei"/>
+                        <outlet property="button3" destination="eWM-98-xjf" id="ly1-FB-YnL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063.3587786259541" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YYC-B4-7lL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NKw-Dm-XC8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="96I-DQ-AKf">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RoQ-Yt-DVn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wO2-WS-yRM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="france" width="200" height="100"/>
+        <image name="spain" width="200" height="100"/>
+        <image name="uk" width="200" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

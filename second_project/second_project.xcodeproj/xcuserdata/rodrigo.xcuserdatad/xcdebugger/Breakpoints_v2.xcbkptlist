@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1C60EBF9-03DF-47F3-9428-7ABE6410FD68"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "second_project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE - 39323cb320d3da25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.countries.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE - d128c68001cd9e31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.countries.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE - 881a8c2f6770b520"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.countries.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE - 1905c7a99511c387"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.countries.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE - 4e197348dcd8847b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; second_project.ViewController"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "0C76B4BE-3410-41FC-B1E1-D910AE1D9DCE - e3a1c450bee1b3bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;second_project.ViewController&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "185">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "158555B3-E031-4D74-B28D-6F1735F8C861"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "second_project/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "158555B3-E031-4D74-B28D-6F1735F8C861 - 1c267c9f579563d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.button2.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "158555B3-E031-4D74-B28D-6F1735F8C861 - f0cf5d14789f7321"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.button2.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "158555B3-E031-4D74-B28D-6F1735F8C861 - 4ae4501d789df7d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.button2.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "158555B3-E031-4D74-B28D-6F1735F8C861 - b8ee90725ed28c62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.button2.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "158555B3-E031-4D74-B28D-6F1735F8C861 - 4e197348dcd8845a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; second_project.ViewController"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "207">
+               </Location>
+               <Location
+                  uuid = "158555B3-E031-4D74-B28D-6F1735F8C861 - e3a1c450bee1b39e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "second_project.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;second_project.ViewController&gt;"
+                  moduleName = "second_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo/Desktop/iOS%20development/100DaysSwift/second_project/second_project/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
